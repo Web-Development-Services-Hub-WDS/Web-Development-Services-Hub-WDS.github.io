@@ -1,17 +1,24 @@
 :root {
-  --clr-accent-500: hsl(0, 0%, 83%);
-  --clr-accent-400: hsl();
-  --clr-accent-300: hsl();
-  --clr-accent-100: hsl();
-
-  --clr-primary-400: hsl();
-
-  --clr-neutral-900: hsl();
-  --clr-neutral-100: hsl();
-
-  --ff-primary: ;
-  --ff-body: ;
-  --ff-accent: ;
+  /*Bkg color of buttons*/
+  --clr-accent-400: hsl(238, 73%, 69%);
+    
+  /*Color of footer text*/
+  --clr-accent-300: hsl(0, 0%, 0%);
+    
+  /*The color of wds when mentioned in text*/
+  --clr-accent-100: hsl(238, 73%, 69%);
+  
+  /*The color of the main text*/
+  --clr-primary-400: hsl(0, 0%, 100%);
+  
+  /*Below is color of the header, footer and body background*/
+  --clr-neutral-900: hsl(0, 0%, 83%);
+  --clr-neutral-100: hsl(0, 0%, 0%);
+  
+  --ff-primary: 'Source Code Pro', monospace;
+  --ff-body: var(--ff-primary);
+  --ff-accent: var(--ff-primary);
+  
 
   --fw-regular: 400;
   --fw-semi-bold: 500;
@@ -71,6 +78,7 @@ html:focus-within {
 html,
 body {
   height: 100%;
+  font-family: var(--ff-primary);
 }
 
 /* Set core body defaults */
