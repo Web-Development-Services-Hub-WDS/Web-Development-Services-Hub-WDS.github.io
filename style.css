@@ -11,7 +11,7 @@
   /*The color of the main text*/
   --clr-primary-400: hsl(0, 0%, 100%);
   
-  /*Below is color of the header, footer and body background*/
+  /*Below is background color of the header, footer and body*/
   --clr-neutral-900: hsl(0, 0%, 83%);
   --clr-neutral-100: hsl(0, 0%, 0%);
   
@@ -131,3 +131,52 @@ svg {
 
 /*Utiity classes*/
 
+/*Color of primary text across entire primary background */
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+/*Color of WDS logo and text across entire site*/
+.text-accent-100 {
+  color: var(--clr-accent-100);
+}
+
+/*color of secondary text such as footer and navbar*/
+.text-accent-300 {
+  color: var(--clr-accent-300);
+}
+
+/*Color of background in main body will be gray*/
+.bg-primary-100 {
+  color: var(--clr-neutral-100);
+}
+
+/*Color for navbar, and footer*/
+.bg-secondary-900 {
+  color: var(--clr-neutral-900);
+}
+/*end of background and text color utilities*/
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+  line-height: 1.1;
+}
+
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
+  line-height: 1.1;
+}
+
+.fs-xs { font-size:var(--fs-300); }
+.fs-small { font-size: var(--fs-400);}
