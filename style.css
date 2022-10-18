@@ -100,6 +100,7 @@ body {
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: var(--clr-neutral-100);
 }
 
 /* A elements that don't have a class get default styles */
@@ -131,6 +132,21 @@ svg {
   }
 }
 
+/*Navbar styles*/
+
+.nav-container {
+  background-color: var(--clr-neutral-900);
+}
+
+.primary-navigation {
+  background-color: var(--clr-neutral-900);
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--clr-accent-300);
+}
+
 /*Utiity classes*/
 
 /*Color of primary text across entire primary background */
@@ -148,7 +164,7 @@ svg {
   color: var(--clr-accent-300);
 }
 
-/*Color of background in main body will be gray*/
+/*Color of background in main body will be black*/
 .bg-primary-100 {
   color: var(--clr-neutral-100);
 }
