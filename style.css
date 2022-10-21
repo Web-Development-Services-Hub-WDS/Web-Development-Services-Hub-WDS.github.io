@@ -257,7 +257,7 @@ ion-icon {
   overflow: hidden;
   position: relative;
   background-color: rgba(255, 255, 255, .6);
-  transition: max-height 650ms;
+  transition: max-height 2s;
 }
 
 .answer::before {
