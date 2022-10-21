@@ -253,10 +253,11 @@ ion-icon {
 }
 
 .answer {
-  /*max-height: 0;
-  overflow: hidden;*/
+  max-height: 0;
+  overflow: hidden;
   position: relative;
-  background-color: var(--clr-neutral-100);
+  background-color: rgba(255, 255, 255, .6);
+  transition: max-height 650ms;
 }
 
 .answer::before {
@@ -271,6 +272,19 @@ ion-icon {
 }
 
 .answer p {
-  font-size: var(--fs-900);
-  color: pink;
+  font-size: var(--fs-500);
+  color: var(--clr-primary-400);
+  padding: 2rem;
+}
+
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .add {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .remove {
+  display: block;
 }
