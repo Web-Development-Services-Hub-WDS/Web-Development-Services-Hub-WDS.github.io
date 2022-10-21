@@ -288,3 +288,73 @@ ion-icon {
 .accordion-item:target .accordion-link .remove {
   display: block;
 }
+
+
+/*Footer styling*/
+.bg-color5 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: var(--clr-neutral-900);
+}
+
+.footerleft,
+.footermiddle, 
+.footerright {
+  display: flex;
+}
+
+.fflexcontain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fflex {
+  display: flex;
+}
+
+.footercolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p{
+  color: var(--clr-accent-300);
+  text-align: center;
+  border-bottom: 1px solid var(--clr-accent-300);
+  border-radius: 10%;
+}
+
+footer a{
+  color: var(--clr-accent-300);
+  text-align: center;
+}
+footer a:hover {
+  color: var(--fc-hover)
+}
+.footer-heading {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-subheading);
+}
+.inputemail {
+  margin: 0 auto;
+}
+
+/* media queries for the footer */
+@media (max-width: 48em) {
+  .footerleft, 
+  .footermiddle, 
+  .footerright {
+      flex-direction: column;
+  }
+  .fflexcontain {
+      flex-direction: column;
+  }
+  .fflex {
+      flex-direction: column;
+      margin-inline: auto;
+      width: min(90%, 70.5rem);
+  }
+  .footercolumn {
+      flex-direction: column;
+  }
+}
