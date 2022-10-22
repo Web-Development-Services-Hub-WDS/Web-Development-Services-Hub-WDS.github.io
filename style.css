@@ -189,7 +189,7 @@ section {
 section {
   text-align: center;
 }
-
+/*Image styling*/
 .computer-screen {
   display: flex;
   justify-content: center;
@@ -219,9 +219,10 @@ section {
   justify-content: center;
 }
 
+@media (max-width: 48em) {
+
+}
 /*Navigation Styles*/
-
-
 
 /*F.A.Q css styles*/
 .faq-section {
