@@ -38,8 +38,8 @@
   
   --fs-body: var(--fs-600);
   --fs-primary-heading: var(--fs-800);
-  --fs-secondary-heading: var(--fs-600);
-  --fs-tri-heading: var(--fs-500);
+  --fs-secondary-heading: var(--fs-700);
+  --fs-main-text: var(--fs-800);
   --fs-nav: var(--fs-500);
   --fs-button: var(--fs-300);
 
@@ -179,6 +179,10 @@ section {
   line-height: 1.1;
 }
 
+.fs-main-text {
+  font-size: var(--fs-main-text);
+}
+
 .fs-300 { font-size:var(--fs-300);}
 .fs-400 { font-size: var(--fs-400);}
 .fs-500 { font-size: var(--fs-500);}
@@ -251,7 +255,7 @@ section {
 }
 
 .accordion-link {
-  font-size: 1.6rem;
+  font-size: var(--fs-main-text);
   color: rgba(255, 255, 255, .8);
   text-decoration: none;
   background-color: var(--clr-neutral-100);
@@ -291,7 +295,7 @@ ion-icon {
 }
 
 .answer p {
-  font-size: var(--fs-500);
+  font-size: var(--fs-main-text);
   color: var(--clr-primary-400);
   padding: 2rem;
 }
@@ -386,6 +390,8 @@ footer a:hover {
   color: var(--clr-primary-400);
   font-family: var(--ff-primary);
 }
+
+/*Below are heading sizes*/
 
 /*Color of WDS logo and text across entire site*/
 .text-accent-100 {
