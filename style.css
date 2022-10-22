@@ -346,8 +346,9 @@ footer a:hover {
 /*Utiity classes*/
 
 /*Color of primary text across entire primary background */
-.text-primary-400 {
+.text-primary {
   color: var(--clr-primary-400);
+  font-family: var(--ff-primary);
 }
 
 /*Color of WDS logo and text across entire site*/
