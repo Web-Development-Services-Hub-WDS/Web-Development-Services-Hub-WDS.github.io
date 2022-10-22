@@ -155,33 +155,6 @@ svg {
 section {
   color: var(--clr-primary-400);
 }
-/*Utiity classes*/
-
-/*Color of primary text across entire primary background */
-.text-primary-400 {
-  color: var(--clr-primary-400);
-}
-
-/*Color of WDS logo and text across entire site*/
-.text-accent-100 {
-  color: var(--clr-accent-100);
-}
-
-/*color of secondary text such as footer and navbar*/
-.text-accent-300 {
-  color: var(--clr-accent-300);
-}
-
-/*Color of background in main body will be black*/
-.bg-primary-100 {
-  color: var(--clr-neutral-100);
-}
-
-/*Color for navbar, and footer*/
-.bg-secondary-900 {
-  color: var(--clr-neutral-900);
-}
-/*end of background and text color utilities*/
 
 .fw-bold {
   font-weight: var(--fw-bold);
@@ -366,3 +339,31 @@ footer a:hover {
       flex-direction: column;
   }
 }
+
+/*Utiity classes*/
+
+/*Color of primary text across entire primary background */
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+/*Color of WDS logo and text across entire site*/
+.text-accent-100 {
+  color: var(--clr-accent-100);
+}
+
+/*color of secondary text such as footer and navbar*/
+.text-accent-300 {
+  color: var(--clr-accent-300);
+}
+
+/*Color of background in main body will be black*/
+.bg-primary-100 {
+  color: var(--clr-neutral-100);
+}
+
+/*Color for navbar, and footer*/
+.bg-secondary-900 {
+  color: var(--clr-neutral-900);
+}
+/*end of background and text color utilities*/
