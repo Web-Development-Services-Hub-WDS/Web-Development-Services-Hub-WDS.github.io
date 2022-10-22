@@ -16,8 +16,10 @@
   --clr-neutral-200: hsl(0, 0%, 0%);
   --clr-neutral-100: rgb(61, 59, 59);
   
-  --ff-primary:;
+  /*--ff-primary:;
   --ff-secondary:;
+  --ff-navigation:;
+  --ff-footer:;*/
   --ff-body: var(--ff-primary);
   --ff-accent: var(--ff-primary);
   
@@ -344,11 +346,6 @@ footer a:hover {
 /*Utiity classes*/
 
 /*Color of primary text across entire primary background */
-
-.outside-heading {
-  font-family: var(--ff-heading);
-}
-
 .text-primary-400 {
   color: var(--clr-primary-400);
 }
