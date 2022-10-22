@@ -16,7 +16,8 @@
   --clr-neutral-200: hsl(0, 0%, 0%);
   --clr-neutral-100: rgb(61, 59, 59);
   
-  --ff-primary: 'Source Code Pro', monospace;
+  --ff-primary:;
+  --ff-secondary:;
   --ff-body: var(--ff-primary);
   --ff-accent: var(--ff-primary);
   
@@ -138,13 +139,12 @@ svg {
   background-color: var(--clr-neutral-900);
 }
 
-.primary-header {
+.outside-header {
   font-family: 'Source Code Pro', monospace;
 }
 
 .primary-navigation {
   background-color: var(--clr-neutral-900);
-  font-family: 'Source Code Pro', monospace;
 }
 
 .nav-list a {
@@ -340,9 +340,15 @@ footer a:hover {
   }
 }
 
+
 /*Utiity classes*/
 
 /*Color of primary text across entire primary background */
+
+.outside-heading {
+  font-family: var(--ff-heading);
+}
+
 .text-primary-400 {
   color: var(--clr-primary-400);
 }
