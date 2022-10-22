@@ -184,6 +184,41 @@ section {
 .fs-500 { font-size: var(--fs-500);}
 .fs-600 { font-size: var(--fs-600);}
 
+/*Everything centered according to Figma*/
+
+section {
+  text-align: center;
+}
+
+.computer-screen {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.project-ss {
+  display: flex;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.desktop-dev {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-dev {
+  display: flex;
+  justify-content: center;
+}
+
 /*Navigation Styles*/
 
 
