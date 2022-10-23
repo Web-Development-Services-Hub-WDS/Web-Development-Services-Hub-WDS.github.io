@@ -153,9 +153,11 @@ svg {
   text-decoration: none;
   color: var(--clr-accent-300);
 }
+
 /*Section styles*/
 
 .container {
+  width: 100%;
   padding: 5rem;
 }
 
@@ -325,6 +327,7 @@ ion-icon {
 
 
 /*Footer styling*/
+
 .bg-color5 {
   padding-top: 2em;
   padding-bottom: 2em;
