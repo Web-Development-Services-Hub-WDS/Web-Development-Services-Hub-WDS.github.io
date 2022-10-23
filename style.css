@@ -354,6 +354,11 @@ ion-icon {
   flex-direction: column;
 }
 
+.footercolumn ul li {
+  list-style: none;
+  text-align: center;
+}
+
 footer p{
   color: var(--clr-accent-300);
   text-align: center;
