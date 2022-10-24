@@ -228,10 +228,31 @@ section {
 /*End of section 4 spacing*/
 
 /*Start of section 5 spacing*/
-  .section-5 {
-    
+  .section-5 h2 {
+    padding-bottom: 2rem;
+  }
+  .section-5 p {
+    padding-bottom: 1.5rem;
   }
 /*End of section 5 spacing*/
+
+/*Start of section 6 spacing*/
+.section-6 h2 {
+  padding-bottom: 2rem;
+}
+.section-6 p {
+  padding-bottom: 1.5rem;
+}
+/*End of section 6 spacing*/
+
+/*Section 7 spacing*/
+.section-7 h2 {
+  padding-bottom: 2rem;
+}
+.section-7 p {
+  padding-bottom: 1.5rem;
+}
+/*End of section 7 spacing */
 
 /*End of spacing and stuff*/
 
