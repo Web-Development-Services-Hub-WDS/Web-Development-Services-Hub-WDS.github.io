@@ -255,6 +255,14 @@ section {
 /*End of section 7 spacing */
 
 /*Start of footer spacing*/
+.footercolumn li {
+  padding-top: .3rem;
+  padding-bottom: 1rem;
+}
+
+.inputemail {
+  padding-top: .4rem;
+}
 
 /*End of footer spacing*/
 
