@@ -210,9 +210,18 @@ section {
 
 /*Section two spacing*/
   .section-2 p {
-    padding-bottom: 4rem;
+    padding-bottom: 3.4rem;
   }
 /*End of section two spacing*/
+
+/*Section 3 spacing*/
+
+  .section-3 p {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+/*End of section 3 spacing*/
 
 /*End of spacing and stuff*/
 
