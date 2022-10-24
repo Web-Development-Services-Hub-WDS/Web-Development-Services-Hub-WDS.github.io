@@ -56,7 +56,7 @@
 
 @media (min-width: 50em) {
   :root {
-    --fs-700: 1.75rem; 
+    --fs-700: 1.875rem; 
     --fs-600: 2.5;
 
     --fs-body: var(--fs-600);
@@ -340,6 +340,7 @@ section {
 
 }
 /*Navigation Styles*/
+
 /*WDS Tab header*/
 .tab-heading {
   text-align: center;
@@ -348,12 +349,16 @@ section {
   background-color: #f1f1f1;
 }
 
+.tab-heading p {
+  font-size: var(--fs-700);
+}
+
 .tab-heading button {
   background-color: inherit;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 0px 0px;
   transition: 0.3s;
   font-size: 17px;
 }
@@ -361,7 +366,7 @@ section {
 .tab-heading button:hover {
   background-color: #ddd;
 }
-/*End of tab header*/
+/*End of tab-header*/
 /* Style the tab */
 .nav-container {
   overflow: hidden;
