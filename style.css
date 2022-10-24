@@ -221,7 +221,17 @@ section {
   }
 /*End of section 3 spacing*/
 
-/*Section 4 spacing*/
+/*Section 4 borders for projects*/
+  .section-4 img {
+    border: .5rem solid var(--clr-accent-400);
+  }
+/*End of section 4 spacing*/
+
+/*Start of section 5 spacing*/
+  .section-5 {
+    
+  }
+/*End of section 5 spacing*/
 
 /*End of spacing and stuff*/
 
