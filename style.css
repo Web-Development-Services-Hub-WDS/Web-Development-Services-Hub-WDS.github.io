@@ -155,9 +155,7 @@ svg {
 }
 
 /*Section styles*/
-
 .container {
-  width: 100%;
   padding: 5rem;
 }
 
@@ -167,6 +165,8 @@ svg {
 }
 
 section {
+  width: 100%;
+  height: auto;
   color: var(--clr-primary-400);
 }
 
@@ -200,8 +200,17 @@ section {
 .fs-500 { font-size: var(--fs-500);}
 .fs-600 { font-size: var(--fs-600);}
 
-/*Everything centered according to Figma*/
+/*Spacing and stuff for entire site*/
+  
+/*Section one spacing*/
+  .welcome h1 {
+    padding-bottom: 3.4rem;
+  }
+/*End of section 1 spacing*/
 
+/*End of spacing and stuff*/
+
+/*Everything centered according to Figma*/
 section {
   text-align: center;
 }
