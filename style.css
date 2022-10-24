@@ -295,6 +295,16 @@ section {
   text-align: center;
 }
 
+.section-4 a {
+  text-decoration: underline;
+  color: var(--clr-accent-400);
+}
+/*Stupid link in #adhoc wont work like the other with the styling above, so I used a Id selector*/
+#adhoc {
+  text-decoration: underline;
+  color: var(--clr-accent-400);
+}
+
 /*Image styling*/
 .computer-screen {
   display: flex;
