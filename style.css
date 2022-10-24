@@ -263,10 +263,32 @@ section {
 .inputemail {
   padding-top: .4rem;
 }
-
 /*End of footer spacing*/
-
 /*End of spacing and stuff*/
+
+/*Button styling for CTA*/
+.pushable {
+  background: hsl(0, 0%, 87%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: var(--clr-accent-100);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+/*End of button styling for CTA*/
 
 /*Everything centered according to Figma*/
 section {
@@ -360,7 +382,7 @@ section {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: hsl(0, 0%, 87%);
 }
 
 /* Create an active/current tablink class */
