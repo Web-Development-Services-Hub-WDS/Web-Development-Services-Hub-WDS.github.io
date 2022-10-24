@@ -330,9 +330,7 @@ section {
 
 }
 /*Navigation Styles*/
-
 /*WDS Tab header*/
-
 .tab-heading {
   text-align: center;
   overflow: hidden;
@@ -353,9 +351,7 @@ section {
 .tab-heading button:hover {
   background-color: #ddd;
 }
-
 /*End of tab header*/
-
 /* Style the tab */
 .nav-container {
   overflow: hidden;
@@ -396,6 +392,24 @@ section {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+/*Img for all containers*/
+
+.computer-screen img {
+  width: 23rem;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.container img {
+  width: 23rem;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 /*F.A.Q css styles*/
