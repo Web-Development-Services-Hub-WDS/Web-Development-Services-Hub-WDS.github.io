@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!--Links to the css stylsheet-->
     <link rel="stylesheet" href="../resources/style.css">
 
@@ -14,23 +14,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
 
     <!--Title of tab window-->
-    <title class="#">&lt;/WDS&gt; | Web Development Services Hub</title>
+    <title class="#">&lt;/WDS&gt; | Contact</title>
   </head>
-
-  <body>
+<body>
     <header class="primary-header text-primary">
-      <div class="nav-container tab-heading">
-        <button><p class="text-accent-100 fw-bold"><a href="../index.html">&lt;/WDS&gt;</a></p></button>
-        <div class="tab">
-          <button class="tablinks"><a href="/pages/about.html">About</a></button>
-          <button class="tablinks"> <a href="#">Contact</a></button>
-          <button class="tablinks"><a href="/pages/projects.html">View Projects</a></button>    
-      </div>
-    </header>
+        <div class="nav-container tab-heading">
+          <button><a href="index.html"><p class="text-accent-100 fw-bold">&lt;/WDS&gt;</p></a></button>
+          <div class="tab">
+            <button class="tablinks"><a href="#">About</a></button>
+            <button class="tablinks"> <a href="contact.html">Contact</a></button>
+            <button class="tablinks"><a href="#">View Projects</a></button>    
+        </div>
+      </header>
 
-    <h1 class="text-primary">This is the contact page</h1>
+      <!-- Contact Us -->
+      <section>
+        <div class="cu-container">
+            <div class="cu-inner-container section-7">
+                <div>
+                    <h2 class="fs-secondary-heading fw-bold text-primary">Contact Us</h2>
+                </div>
+                <div>
+                    <p class="fs-secondary-heading text-primary fs-main-text">We're here to help 
+                    you. Want to know more on how we can help grow your business? Shoot 
+                    us a message!</p>
+                    <p class="fs-secondary-heading text-primary fs-main-text">Email us at: <a class="text-accent-100" href="#">contact@wds.com</a></p>
+                </div>
+                <div>
+                    <p class="fs-secondary-heading text-primary fs-main-text">Already a client 
+                    and got some design, technical, and any other problems or 
+                    questions about your site? Send us message!</p>
+                    <p class="fs-secondary-heading text-primary fs-main-text">Email us at: <a class="text-accent-100" href="#">support@wds.com</a></p>
+                </div>
+            </div>
+        </div>
+      </section>
 
-    <footer class="text-primary">
+      <!--Footer-->
+      <footer class="text-primary">
         <div class="bg-color5">
 
                 <div class="fflexcontain">
@@ -39,11 +60,10 @@
                             <div class="footercolumn">
                               <p class="footer-heading">Customer Care</p>
                               <ul>                          
-                                <li><a href="/pages/about.html">About Us</a></li>
-                                <li><a href="/pages/projects.html">Reviews</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Reviews</a></li>
                                 <li><a href="#">FAQ's</a></li>
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="#">Investors</a></li>
                               </ul>
                             </div>
                         </div>
@@ -57,7 +77,7 @@
                                 <li><a href="#">Copyright©</a></li>
                                 <li><a href="#">Terms Of Service</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                               </ul>
                             </div>
                          </div>
@@ -92,10 +112,5 @@
             </div>
         </div>
     </footer>
-
-    <!--Javascript Link-->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script type="module" src="script.js"></script>
-  </body>
+</body>
 </html>

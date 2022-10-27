@@ -622,3 +622,21 @@ footer a:hover {
   color: var(--clr-neutral-900);
 }
 /*end of background and text color utilities*/
+
+/* Contact Page Utilites */
+.cu-container {
+  --max-width: 1110px;
+  --padding: 5rem;
+
+  width: min(var(--max-width), 100% - var(--padding));
+  margin-inline: auto;
+}
+
+.cu-inner-container {
+  text-align: left;
+  padding-block: 5rem;
+}
+
+.cu-inner-container h2 {
+  text-align: center;
+}
