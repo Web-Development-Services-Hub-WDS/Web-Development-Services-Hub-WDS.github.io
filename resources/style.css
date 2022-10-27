@@ -10,7 +10,7 @@
   
   /*The color of the main text*/
   --clr-primary-400: hsl(0, 0%, 100%);
-  
+   
   /*Below is background color of the header, footer and body*/
   --clr-neutral-900: hsl(0, 0%, 83%);
   --clr-neutral-200: hsl(0, 0%, 0%);
@@ -56,7 +56,7 @@
 
 @media (min-width: 50em) {
   :root {
-    --fs-700: 1.875rem; 
+    --fs-700: 1.4rem; 
     --fs-600: 2.5;
 
     --fs-body: var(--fs-600);
