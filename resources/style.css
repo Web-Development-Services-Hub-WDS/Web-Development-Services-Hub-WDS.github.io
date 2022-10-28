@@ -596,6 +596,18 @@ footer a:hover {
   }
 }
 
+/*Projects page css*/
+
+  .project-desc li {
+    padding-top: 1rem;
+    list-style: none;
+  }
+
+  .project-desc a {
+    text-decoration: underline;
+    color: var(--clr-accent-100);
+  }
+/*End of projects page css*/
 
 /*Utiity classes*/
 
