@@ -597,6 +597,9 @@ footer a:hover {
 }
 
 /*Projects page css*/
+  .section-4 figcaption {
+    padding-top: 1rem;
+  }
 
   .project-desc li {
     padding-top: 1rem;
