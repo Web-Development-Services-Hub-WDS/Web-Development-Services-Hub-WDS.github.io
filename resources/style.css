@@ -208,6 +208,10 @@ section {
 /*Spacing and stuff for entire site*/
   
 /*Section one spacing*/
+  header a {
+    text-decoration: none;
+  }
+  
   .welcome h1 {
     padding-bottom: 3.4rem;
   }
