@@ -610,6 +610,11 @@ footer a:hover {
     text-decoration: underline;
     color: var(--clr-accent-100);
   }
+  /*Projects page CTA*/
+  .cta-txt p {
+    padding-bottom: 1.3rem;
+  }
+
 /*End of projects page css*/
 
 /*Utiity classes*/
