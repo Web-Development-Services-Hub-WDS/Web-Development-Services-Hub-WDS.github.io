@@ -211,7 +211,7 @@ section {
   header a {
     text-decoration: none;
   }
-  
+
   .welcome h1 {
     padding-bottom: 3.4rem;
   }
@@ -598,6 +598,30 @@ footer a:hover {
   .footercolumn {
       flex-direction: column;
   }
+}
+
+/*Careers page css*/
+.why-join p {
+  padding-bottom: .5rem;
+}
+
+#wds-values {
+  padding-bottom: 1.4rem;
+}
+
+.benefits-join p {
+  padding-top: 1rem;
+  padding-bottom: .4rem;
+}
+
+.our-values p {
+  text-align: center;
+  padding-bottom: 1.4rem;
+}
+
+.job-types li {
+  padding-top: 1.4rem;
+  list-style: none;
 }
 
 /*Projects page css*/
