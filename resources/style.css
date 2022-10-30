@@ -603,6 +603,10 @@ footer a:hover {
 
 /*F.A.Q page styling*/
 
+.faq-desc {
+  padding-bottom: 1rem;
+}
+
 .contact-info-faq p {
   padding-top: 1.3rem;
 }
