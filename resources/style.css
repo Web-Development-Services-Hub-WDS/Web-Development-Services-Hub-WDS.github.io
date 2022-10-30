@@ -628,6 +628,7 @@ footer a:hover {
 /*Projects page css*/
   .section-4 figcaption {
     padding-top: 1rem;
+    text-align: center;
   }
 
   .project-desc li {
