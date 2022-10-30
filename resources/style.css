@@ -601,6 +601,12 @@ footer a:hover {
   }
 }
 
+/*F.A.Q page styling*/
+
+.contact-info-faq p {
+  padding-top: 1.3rem;
+}
+
 /*Careers page css*/
 .why-join p {
   padding-bottom: .5rem;
