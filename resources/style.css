@@ -172,7 +172,6 @@ section {
 }
 
 .fw-bold {
-  text-align: center;
   font-weight: var(--fw-bold);
 }
 .fw-semi-bold {
@@ -302,7 +301,7 @@ section {
 
 /*Everything centered according to Figma*/
 section {
-  text-align: left;
+  text-align: center;
 }
 
 .section-4 a {
