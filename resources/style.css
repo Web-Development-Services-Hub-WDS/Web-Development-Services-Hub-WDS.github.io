@@ -173,6 +173,7 @@ section {
 
 .fw-bold {
   font-weight: var(--fw-bold);
+  text-align: center;
 }
 .fw-semi-bold {
   font-weight: var(--fw-semi-bold);
@@ -686,7 +687,6 @@ footer a:hover {
 .bg-secondary-900 {
   color: var(--clr-neutral-900);
 }
-/*end of background and text color utilities*/
 
 /* Contact Page Utilites */
 .cu-container {
@@ -705,3 +705,34 @@ footer a:hover {
 .cu-inner-container h2 {
   text-align: center;
 }
+
+/* About edits */
+
+.about-projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.vision a {
+  text-decoration: none;
+  color: var(--clr-accent-100);
+}
+
+@media (max-width: 48em) {
+  .about-projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-800);
+}
+
+/*end of background and text color utilities*/
