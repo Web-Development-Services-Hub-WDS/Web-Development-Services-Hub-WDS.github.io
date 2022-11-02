@@ -822,4 +822,13 @@ footer a:hover {
   padding-top: 3rem;
 }
 
+.figcaption-team p {
+  text-align: left;
+}
+
+.figcaption-team a {
+  padding: 0;
+  margin: 0;
+}
+
 /*end of background and text color utilities*/
