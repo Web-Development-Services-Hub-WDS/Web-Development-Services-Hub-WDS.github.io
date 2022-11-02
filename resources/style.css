@@ -428,6 +428,84 @@ section {
   border-top: none;
 }
 
+/*Navigation on desktop*/
+@media (min-width: 48em) {
+  .tab-heading {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab-heading p {
+    font-size: var(--fs-700);
+  }
+  
+  .tab-heading button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 0px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .tab-heading button:hover {
+    background-color: #ddd;
+  }
+
+  .nav-container {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  .tab a {
+    text-decoration: none;
+    color: var(--clr-accent-300);
+  }
+
+  .tab button {
+    background-color: inherit;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  .tab button:hover {
+    background-color: hsl(0, 0%, 87%);
+  }
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+}
+
 /*Img for all containers*/
 
 .computer-screen img {
