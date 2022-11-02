@@ -299,6 +299,9 @@ section {
 .pushable:active .front {
   transform: translateY(-2px);
 }
+
+
+
 /*End of button styling for CTA*/
 
 /*Everything centered according to Figma*/
@@ -729,10 +732,8 @@ footer a:hover {
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--size-800);
+  text-decoration: none;
+  color: var(--clr-primary-400);
 }
 
 /*end of background and text color utilities*/
