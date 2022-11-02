@@ -288,7 +288,7 @@ section {
 
 .front {
   display: block;
-  padding: 12px 42px;
+  padding: .3rem 1rem;
   border-radius: 12px;
   font-size: 1.25rem;
   background: var(--clr-accent-100);
