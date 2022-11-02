@@ -814,4 +814,12 @@ footer a:hover {
   color: var(--clr-primary-400);
 }
 
+#contact-about {
+  padding-bottom: 3rem;
+}
+
+#meet-team {
+  padding-top: 3rem;
+}
+
 /*end of background and text color utilities*/
