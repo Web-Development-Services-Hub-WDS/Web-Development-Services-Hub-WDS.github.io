@@ -436,6 +436,7 @@ section {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    padding-left: 6rem;
   }
   
   .tab-heading p {
@@ -463,8 +464,7 @@ section {
   }
   
   .tab {
-    display: flex;
-    justify-content: space-around;
+    padding-right: 6rem;
     overflow: hidden;
     background-color: #f1f1f1;
   }
