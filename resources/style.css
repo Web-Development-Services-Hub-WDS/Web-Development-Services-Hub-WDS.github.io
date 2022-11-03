@@ -113,6 +113,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+/* text-center utility */
+.text-center {
+  text-align: center;
+}
+
 /* Make images easier to work with */
 img,
 picture,
@@ -137,6 +142,25 @@ svg {
   }
 }
 
+.spacing-h2 {
+  padding-bottom: 2em;
+}
+
+.spacing-p {
+  padding-bottom: 1.5;
+}
+.div-extra-spacing {
+  padding-bottom: 4em;
+}
+.div-spacing {
+  padding-bottom: 2em; 
+}
+.div-half-spacing {
+  padding-bottom: 1.5em;
+}
+.div-super-half-spacing {
+  padding-bottom: 1em;
+}
 /*Navbar styles*/
 .nav-container {
   background-color: var(--clr-neutral-900);
@@ -253,15 +277,6 @@ section {
   padding-bottom: 1.5rem;
 }
 /*End of section 6 spacing*/
-
-/*Section 7 spacing*/
-.section-7 h2 {
-  padding-bottom: 2rem;
-}
-.section-7 p {
-  padding-bottom: 1.5rem;
-}
-/*End of section 7 spacing */
 
 /*Start of footer spacing*/
 .footercolumn li {
@@ -700,8 +715,64 @@ footer a:hover {
 .cu-inner-container {
   text-align: left;
   padding-block: 5rem;
+  display: grid;
+  grid-auto-flow: column; 
+  grid-auto-columns: auto; 
+  grid-auto-rows: auto; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: .3fr 1fr .7fr .7fr; 
+  gap: 2% 0%; 
+  grid-template-areas: 
+    "title"
+    "general"
+    "contact"
+    "support";
+}
+.cu-title-container {
+  grid-area: title;
+}
+.cu-general-container {
+  grid-area: general;
+  display: grid;
+  grid-auto-flow: column; 
+  grid-auto-columns: auto; 
+  grid-auto-rows: auto; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 2% 0%; 
+  grid-template-areas: 
+    "top"
+    "bottom"
+}
+.cu-general-inner-top {
+  grid-area: top;
+}
+.cu-general-inner-bottom {
+  grid-area: bottom;
+  display: grid;
+  grid-auto-flow: row; 
+  grid-auto-columns: auto; 
+  grid-auto-rows: auto; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 2% 0%; 
+  grid-template-areas: 
+    "email phone"
+}
+.cu-email {
+  grid-area: email;
+  justify-self: center; 
+  align-self: center; 
+}
+.cu-phone {
+  grid-area: phone;
+  justify-self: center; 
+  align-self: center; 
+}
+.cu-contact-container {
+  grid-area: contact;
+}
+.cu-support-container {
+  grid-area: support;
 }
 
-.cu-inner-container h2 {
-  text-align: center;
-}
