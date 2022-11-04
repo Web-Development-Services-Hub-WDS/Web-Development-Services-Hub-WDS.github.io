@@ -113,11 +113,6 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* text-center utility */
-.text-center {
-  text-align: center;
-}
-
 /* Make images easier to work with */
 img,
 picture,
@@ -140,26 +135,6 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-.spacing-h2 {
-  padding-bottom: 2em;
-}
-
-.spacing-p {
-  padding-bottom: 1.5;
-}
-.div-extra-spacing {
-  padding-bottom: 4em;
-}
-.div-spacing {
-  padding-bottom: 2em; 
-}
-.div-half-spacing {
-  padding-bottom: 1.5em;
-}
-.div-super-half-spacing {
-  padding-bottom: 1em;
 }
 
 /*Navbar styles*/
@@ -280,7 +255,8 @@ section {
 }
 /*End of section 6 spacing*/
 
-/*Section 7 spacing
+/*Section 7 spacing*/
+
 .section-7 h2 {
   padding-bottom: 2rem;
 }
@@ -813,6 +789,69 @@ footer a:hover {
   text-align: center;
 }
 
+.cu-inner-container-contact {
+    text-align: left;
+    padding-block: 5rem;
+    display: grid;
+    grid-auto-flow: column; 
+    grid-auto-columns: auto; 
+    grid-auto-rows: auto; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: .3fr 1fr .7fr .7fr; 
+    gap: 2% 0%; 
+    grid-template-areas: 
+      "title"
+      "general"
+      "contact"
+      "support";
+  }
+  .cu-title-container-contact {
+    grid-area: title;
+  }
+  .cu-general-container-contact {
+    grid-area: general;
+    display: grid;
+    grid-auto-flow: column; 
+    grid-auto-columns: auto; 
+    grid-auto-rows: auto; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 2% 0%; 
+    grid-template-areas: 
+      "top"
+      "bottom"
+  }
+  .cu-general-inner-top-contact {
+    grid-area: top;
+  }
+  .cu-general-inner-bottom-contact {
+    grid-area: bottom;
+    display: grid;
+    grid-auto-flow: row; 
+    grid-auto-columns: auto; 
+    grid-auto-rows: auto; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 2% 0%; 
+    grid-template-areas: 
+      "email phone"
+  }
+  .cu-email-contact {
+    grid-area: email;
+    justify-self: center; 
+    align-self: center; 
+  }
+  .cu-phone-contact {
+    grid-area: phone;
+    justify-self: center; 
+    align-self: center; 
+  }
+  .cu-contact-container-contact {
+    grid-area: contact;
+  }
+  .cu-support-container-contact {
+    grid-area: support;
+  }
 /* About edits */
 
 .about-projects {
