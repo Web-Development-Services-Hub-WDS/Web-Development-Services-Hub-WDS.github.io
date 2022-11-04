@@ -113,6 +113,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+/* text-center utility */
+.text-center {
+  text-align: center;
+}
+
 /* Make images easier to work with */
 img,
 picture,
@@ -135,6 +140,26 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.spacing-h2 {
+  padding-bottom: 2em;
+}
+
+.spacing-p {
+  padding-bottom: 1.5;
+}
+.div-extra-spacing {
+  padding-bottom: 4em;
+}
+.div-spacing {
+  padding-bottom: 2em; 
+}
+.div-half-spacing {
+  padding-bottom: 1.5em;
+}
+.div-super-half-spacing {
+  padding-bottom: 1em;
 }
 
 /*Navbar styles*/
@@ -255,7 +280,7 @@ section {
 }
 /*End of section 6 spacing*/
 
-/*Section 7 spacing*/
+/*Section 7 spacing
 .section-7 h2 {
   padding-bottom: 2rem;
 }
@@ -781,6 +806,7 @@ footer a:hover {
 .cu-inner-container {
   text-align: left;
   padding-block: 5rem;
+  
 }
 
 .cu-inner-container h2 {
