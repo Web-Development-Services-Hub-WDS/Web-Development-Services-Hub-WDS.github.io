@@ -9,7 +9,7 @@
   --clr-accent-100: hsl(238, 73%, 69%);
   
   /*The color of the main text*/
-  --clr-primary-400: hsl(0, 0%, 100%);
+  --clr-primary-400: hsl(0, 7%, 82%);
    
   /*Below is background color of the header, footer and body*/
   --clr-neutral-900: hsl(0, 0%, 83%);
@@ -221,6 +221,7 @@ section {
   .welcome h1 {
     padding-bottom: 3.4rem;
   }
+
 /*End of section 1 spacing*/
 
 /*Section two spacing*/
