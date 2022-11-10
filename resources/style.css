@@ -224,6 +224,10 @@ section {
     padding-bottom: 3.4rem;
   }
 
+  .welcome-home h1 {
+    padding-bottom: 3.4rem;
+  }
+
 /*End of section 1 spacing*/
 
 /*Section two spacing*/
@@ -360,10 +364,10 @@ section {
 }
 
 @media (max-width: 34.5625em) {
-  .welcome h1 {
+  .welcome-home h1 {
     text-align: left;
   }
-  .welcome p {
+  .welcome-home p {
     text-align: left;
   }
 }
