@@ -16,10 +16,10 @@
   --clr-neutral-200: hsl(0, 0%, 0%);
   --clr-neutral-100: rgb(61, 59, 59);
   
-  --ff-primary: 'Inter', sans-serif;
-  --ff-secondary: 'Inter', sans-serif;
-  --ff-navigation: 'Inter', sans-serif;
-  --ff-footer: 'Inter', sans-serif;
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-navigation: 'Montserrat', sans-serif;
+  --ff-footer: 'Montserrat', sans-serif;
   --ff-body: var(--ff-primary);
   --ff-accent: var(--ff-primary);
   
@@ -143,7 +143,7 @@ svg {
 }
 
 .outside-header {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .primary-navigation {
