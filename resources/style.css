@@ -672,8 +672,8 @@ footer a:hover {
 
 /*F.A.Q page styling*/
 
-.faq-desc {
-  padding-bottom: 1rem;
+.faq-desc h1 {
+  padding-bottom: .2rem;
 }
 
 .contact-info-faq p {
