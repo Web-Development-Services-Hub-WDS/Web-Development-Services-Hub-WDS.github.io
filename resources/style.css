@@ -377,8 +377,6 @@ section {
 .tab-heading {
   text-align: center;
   overflow: hidden;
-  /*border: 1px solid #ccc;
-  background-color: #f1f1f1;*/
 }
 
 .tab-heading p {
@@ -395,17 +393,8 @@ section {
   font-size: 17px;
 }
 
-/*.tab-heading button:hover {
-  background-color: #ddd;
-}*/
-
 /*End of tab-header*/
 /* Style the tab */
-.nav-container {
-  /*overflow: hidden;*/
-  /*border: 1px solid #ccc;*/
-  /*background-color: #f1f1f1;*/
-}
 
 .tab {
   overflow: hidden;
@@ -430,9 +419,6 @@ section {
 }
 
 /* Change background color of buttons on hover */
-/*.tab button:hover {
-  background-color: hsl(0, 0%, 87%);
-}*/
 
 /* Create an active/current tablink class */
 .tab button.active {
@@ -452,9 +438,6 @@ section {
   .tab-heading {
     display: flex;
     justify-content: space-between;
-    /*overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;*/
     padding-left: 6rem;
   }
   
