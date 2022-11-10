@@ -7,7 +7,7 @@
     
   /*The color of wds when mentioned in text*/
   --clr-accent-100: hsl(238, 73%, 69%);
-  
+  --clr-accent-200: hsl(0, 7%, 82%);
   /*The color of the main text*/
   --clr-primary-400: hsl(0, 7%, 82%);
    
@@ -138,9 +138,9 @@ svg {
 }
 
 /*Navbar styles*/
-.nav-container {
+/*.nav-container {
   background-color: var(--clr-neutral-900);
-}
+}*/
 
 .outside-header {
   font-family: 'Montserrat', sans-serif;
@@ -395,25 +395,26 @@ section {
   font-size: 17px;
 }
 
-.tab-heading button:hover {
+/*.tab-heading button:hover {
   background-color: #ddd;
-}
+}*/
+
 /*End of tab-header*/
 /* Style the tab */
 .nav-container {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  /*overflow: hidden;*/
+  /*border: 1px solid #ccc;*/
+  /*background-color: #f1f1f1;*/
 }
 
 .tab {
   overflow: hidden;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
 }
 
 .tab a {
   text-decoration: none;
-  color: var(--clr-accent-300);
+  color: var(--clr-accent-200);
 }
 
 /* Style the buttons inside the tab */
@@ -429,9 +430,9 @@ section {
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+/*.tab button:hover {
   background-color: hsl(0, 0%, 87%);
-}
+}*/
 
 /* Create an active/current tablink class */
 .tab button.active {
@@ -451,8 +452,8 @@ section {
   .tab-heading {
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
-    /*border: 1px solid #ccc;
+    /*overflow: hidden;
+    border: 1px solid #ccc;
     background-color: #f1f1f1;*/
     padding-left: 6rem;
   }
@@ -471,25 +472,25 @@ section {
     font-size: 17px;
   }
   
-  .tab-heading button:hover {
+  /*.tab-heading button:hover {
     background-color: #ddd;
-  }
+  }*/
 
-  .nav-container {
+  /*.nav-container {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-  }
+  }*/
   
-  .tab {
+  /*.tab {
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+  }*/
   
   .tab a {
     padding: 2rem;
     text-decoration: none;
-    color: var(--clr-accent-300);
+    color: var(--clr-accent-200);
   }
 
   .tab button {
@@ -503,9 +504,9 @@ section {
     font-size: 17px;
   }
 
-  .tab button:hover {
+  /*.tab button:hover {
     background-color: hsl(0, 0%, 87%);
-  }
+  }*/
 
   .tab button.active {
     background-color: #ccc;
