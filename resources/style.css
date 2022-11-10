@@ -372,6 +372,9 @@ section {
   }
 }
 /*Navigation Styles*/
+.primary-header {
+  padding-top: 1.2rem;
+}
 
 /*WDS Tab header*/
 .tab-heading {
@@ -387,7 +390,6 @@ section {
   background-color: inherit;
   border: none;
   outline: none;
-  cursor: pointer;
   padding: 0px 0px;
   transition: 0.3s;
   font-size: 17px;
@@ -412,7 +414,6 @@ section {
   text-align: center;
   border: none;
   outline: none;
-  cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
@@ -449,26 +450,10 @@ section {
     background-color: inherit;
     border: none;
     outline: none;
-    cursor: pointer;
     padding: 0px 0px;
     transition: 0.3s;
     font-size: 17px;
   }
-  
-  /*.tab-heading button:hover {
-    background-color: #ddd;
-  }*/
-
-  /*.nav-container {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }*/
-  
-  /*.tab {
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }*/
   
   .tab a {
     padding: 2rem;
@@ -477,20 +462,19 @@ section {
     font-size: var(--fs-600);
   }
 
+  .tab a:hover {
+    cursor: pointer;
+  }
+
   .tab button {
     background-color: inherit;
     text-align: center;
     border: none;
     outline: none;
-    cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
   }
-
-  /*.tab button:hover {
-    background-color: hsl(0, 0%, 87%);
-  }*/
 
   .tab button.active {
     background-color: #ccc;
