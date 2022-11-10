@@ -146,10 +146,6 @@ svg {
   font-family: 'Montserrat', sans-serif;
 }
 
-.primary-navigation {
-  background-color: var(--clr-neutral-900);
-}
-
 .nav-list a {
   text-decoration: none;
   color: var(--clr-accent-300);
@@ -358,7 +354,12 @@ section {
 }
 
 @media (max-width: 48em) {
-
+  .welcome h1 {
+    text-align: left;
+  }
+  .welcome p {
+    text-align: left;
+  }
 }
 /*Navigation Styles*/
 
@@ -366,8 +367,8 @@ section {
 .tab-heading {
   text-align: center;
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  /*border: 1px solid #ccc;
+  background-color: #f1f1f1;*/
 }
 
 .tab-heading p {
@@ -441,8 +442,8 @@ section {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /*border: 1px solid #ccc;
+    background-color: #f1f1f1;*/
     padding-left: 6rem;
   }
   
