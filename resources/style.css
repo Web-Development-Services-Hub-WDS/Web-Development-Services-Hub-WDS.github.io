@@ -152,11 +152,12 @@ svg {
 }
 
 /*Section styles*/
-
+/*Code below is for the background image on the homepage, for desktop users*/
 .home-bkg {
   background-image: url("../images/bkg-img-neutral.svg");
 }
 
+/*Removes background for mobile users since the boxes don't even show correctly*/
 @media (max-width: 48em) {
   .home-bkg {
     background-image: none;
@@ -717,7 +718,14 @@ footer a:hover {
 
   .project-desc a {
     text-decoration: underline;
-    color: var(--clr-accent-100);
+    color: var(--clr-accent-200);
+  }
+
+  @media (min-width: 48em) {
+    .project-desc a {
+      text-decoration: none;
+      color: var(--clr-accent-200);
+    }
   }
   /*Projects page CTA*/
   .cta-txt p {
