@@ -157,6 +157,12 @@ svg {
   background-image: url("../images/bkg-img-neutral.svg");
 }
 
+@media (max-width: 48em) {
+  .home-bkg {
+    background-image: none;
+  }
+}
+
 .container {
   padding: 5rem;
 }
@@ -353,7 +359,7 @@ section {
   justify-content: center;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 34.5625em) {
   .welcome h1 {
     text-align: left;
   }
