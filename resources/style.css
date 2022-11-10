@@ -156,6 +156,11 @@ svg {
 }
 
 /*Section styles*/
+
+.home-bkg {
+  background-image: url("../images/bkg-img-neutral.svg");
+}
+
 .container {
   padding: 5rem;
 }
