@@ -734,6 +734,80 @@ footer a:hover {
 
 /*End of projects page css*/
 
+/*Contact us form styling*/
+
+#overlay {
+  max-width: 34rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 106, 0.4);
+}
+
+form {
+  max-width: 34rem;
+  width: 100%;
+  background: white;
+  margin: 5vh auto 5vh auto;
+  padding: 2.5rem;
+  border-radius: 0.199rem;
+  box-sizing: border-box;
+}
+
+.form-heading {
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1.25rem 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 0.063rem solid;
+}
+
+input[type="text"]:focus {
+  border-bottom: 0.063rem solid hsl(238, 73%, 69%)
+}
+
+input[type="email"]:focus {
+  border-bottom: 0.063rem solid hsl(238, 73%, 69%)
+}
+
+input[type="number"]:focus {
+  border-bottom: 0.063rem solid hsl(238, 73%, 69%)
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 1.875rem;
+  width: 90%;
+  max-width: 12.5rem;
+  background: linear-gradient(to right, hsl(238, 73%, 69%), hsl(238, 73%, 69%));
+  color: var(--clr-primary-400);
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 0.063rem solid red;
+}
+
+#success {
+  color: var(--clr-accent-100);
+}
 /*Utiity classes*/
 
 /*Color of primary text across entire primary background */
